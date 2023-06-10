@@ -3,7 +3,7 @@ Url: http://localhost:8096/
 User: `admin`  
 Password: `admin`  
 
-### Start Stack
+### Start the stack
 ```
 docker compose up -d
 ```
