@@ -363,3 +363,31 @@
 [2023-06-10 16:10:23.187 +04:00] [INF] [34] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.20.0.1" request
 [2023-06-10 16:10:24.076 +04:00] [INF] [25] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.20.0.1" closed
 [2023-06-10 16:10:24.305 +04:00] [INF] [17] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.20.0.1" request
+[2023-06-10 16:10:59.955 +04:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2023-06-10 16:10:59.957 +04:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2023-06-10 16:10:59.969 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2023-06-10 16:10:59.970 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2023-06-10 16:10:59.971 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2023-06-10 16:10:59.971 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MergeVersionsManager"
+[2023-06-10 16:10:59.971 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2023-06-10 16:10:59.972 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2023-06-10 16:10:59.972 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-06-10 16:10:59.972 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2023-06-10 16:10:59.974 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2023-06-10 16:10:59.975 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2023-06-10 16:10:59.976 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2023-06-10 16:10:59.977 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2023-06-10 16:10:59.978 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2023-06-10 16:10:59.979 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2023-06-10 16:10:59.979 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2023-06-10 16:10:59.980 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2023-06-10 16:10:59.980 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2023-06-10 16:10:59.981 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.20.0.2"
+[2023-06-10 16:10:59.981 +04:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2023-06-10 16:10:59.981 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2023-06-10 16:10:59.981 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2023-06-10 16:10:59.983 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-06-10 16:10:59.983 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2023-06-10 16:10:59.984 +04:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2023-06-10 16:10:59.985 +04:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-06-10 16:10:59.995 +04:00] [INF] [34] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.20.0.1" closed
