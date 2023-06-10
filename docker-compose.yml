@@ -1,0 +1,23 @@
+version: "2.1"
+services:
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Tbilisi
+    volumes:
+      - ./config:/config
+      - ./Volumes:/Volumes
+    ports:
+      - 0.0.0.0:8096:8096
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+    healthcheck:
+      test: /bin/bash -c "</dev/tcp/localhost/8096"
+      start_period: 5s
+      interval: 5s
